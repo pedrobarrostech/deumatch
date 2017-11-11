@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Interfaces\**" />
+    <EmbeddedResource Remove="Interfaces\**" />
+    <None Remove="Interfaces\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="7.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DotNetCoreAppExample.Domain.Core\DotNetCoreAppExample.Domain.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Empresas\Services\" />
+    <Folder Include="Perguntas\Interfaces\" />
+    <Folder Include="Perguntas\Services\" />
+    <Folder Include="Profissionais\Interfaces\" />
+    <Folder Include="Profissionais\Services\" />
+  </ItemGroup>
+
+</Project>

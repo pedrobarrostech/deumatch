@@ -1,0 +1,96 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('../node_modules/primeng/resources/themes/omega/theme.css');
+@import url('../node_modules/primeng/resources/primeng.min.css');
+@import url('../node_modules/font-awesome/css/font-awesome.min.css');
+
+body {
+    background-color:#85abd6;
+    color: #ececec;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card-block {
+    background-color:#85abd6;
+    color: #ececec;
+    padding-top: 2em;
+    padding-bottom: 3em;
+}
+
+.navbar-brand {
+    margin-left: 10%;
+}
+
+footer {
+    background-color: #014d9a !important;
+    padding: 3em;
+}
+
+.bg-primary {
+    background-color: #014d9a !important;
+}
+.btn-secondary {
+    background-color: #014d9a;
+}
+.card-header { 
+    padding: 1em 0.7em;
+}
+
+.margin--top {
+    margin-top: 0.5em;
+}
+
+.margin--top-2x {
+    margin-top: 2em;
+}
+.margin--top-3x {
+    margin-top: 3em;
+}
+
+.margin--top-8x {
+    margin-top: 8em;
+}
+
+.text-muted {
+    color: #fff !important;
+}
+
+h2 { 
+    color: #014d9a;
+    font-size: 36px;
+}
+
+hr { 
+    border-top: 1px solid #9fc3ec;
+}
+
+.padding--bottom-0 {
+    padding-bottom: 0px !important;
+}
+
+.card-header {
+    color: #014d9a;
+}
+
+.form-control {
+    border: 1px solid #758798;
+}
+
+form label {
+    color: #ffffff;
+}
+
+@media (min-width:990px){
+    .card-header {
+        padding-left: 11.5%;
+    }
+}
+
+@media (max-width:800px) {
+    .navbar-brand {
+        margin-right: 24%;
+    }
+}
+
+.ui-slider {
+    background: #dedede;
+}
