@@ -1,6 +1,4 @@
-# Equipe 34 - Deu Match!
-
-## Primeiro GIT Realizado em Outro Bucket, verificado por Luciano Santana e trata-se do mesmo arquivo COmmitado no prazo#
+# Deu Match!
 
 Aplicação desenvolvida para facilitar a busca de profissionais avaliando tanto o perfil comportamental quanto o técnico.
 
